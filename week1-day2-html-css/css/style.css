@@ -1,0 +1,58 @@
+/*Styling for student-bio.htm*/
+body{
+	background-color: #efeee7;
+	font-family: Georgia, Times New Roman, Times, serif;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+	display: table-cell;
+	text-align:center;
+	vertical-align: middle;
+}
+
+header{
+		font-size: 50px;
+		background-color: #d21034;
+		font-weight: bold;
+}
+
+h1{
+	font-size: 28px;
+	background-color: #33333;
+}
+
+h2{
+	font-size: 24px;
+}
+
+ul{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main-bio{
+	/*float: left;*/
+	width: 70%;
+	margin-top: 3cm;
+	margin-bottom: 3cm;
+}
+
+contact-info{
+	/*float: left;*/
+	width: 30%;
+	line-height: 1.5;
+	color= document.linkColor;
+	document.linkColor= #d21034;
+}
+
+bio-image{
+	/*float: left;*/
+	width: 200px;
+}
+
+footer{
+	padding: 1em;
+	background-color: darkgrey;
+	color: white;
+}
